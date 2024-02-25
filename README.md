@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [@GitHub]()
-- Live Site URL: [@GitHub]()
+- Solution URL: [@GitHub](https://github.com/razaali90/password_generator)
+- Live Site URL: [@GitHub](https://github.com/razaali90/password_generator/blob/main/index.html)
 
 ## Process
 
