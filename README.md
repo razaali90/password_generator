@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [@GitHub](https://github.com/razaali90/password_generator)
-- Live Site URL: [@GitHub](https://github.com/razaali90/password_generator/blob/main/index.html)
+- Live Site URL: [@GitHub](https://htmlpreview.github.io/?https://github.com/razaali90/password_generator/blob/main/index.html)
 
 ## Process
 
