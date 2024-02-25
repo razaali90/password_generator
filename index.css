@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    background-color: #14213d;
+    text-align: left;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+}
+
+.main-div {
+    padding: 50px 50px 50px 50px;
+}
+
+/* #heading1 {
+    color: aliceblue;
+} */
+
+#heading2 {
+    color: #fca311;
+}
+
+button {
+    background-color: #fca311;
+    padding: 5px 15px 5px 15px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+#sep-line {
+    /* background-color: rgb(70, 70, 70); */
+    border-top: 2px solid #fca311;
+    margin: 20px;
+}
+
+.textbox-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textbox-row {
+    display: flex;
+    margin-bottom: 10px; /* Adjust margin between rows */
+}
+
+.textbox {
+    flex: 1;
+    margin-right: 10px; /* Adjust margin between text boxes */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #fca311;
+    text-align: center; /* Align text horizontally in the center */
+    padding: 5px;
+    width: 20%;
+}
+
+.textbox::placeholder {
+    text-align: center;
+}
+
+#myRange {
+    -webkit-appearance: none;
+    appearance: none; 
+    width: 25%;
+    cursor: pointer;
+    outline: none;
+    border-radius: 15px;
+    height: 6px;
+    background: #ccc;
+}
+
+#myRange::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none; 
+    height: 15px;
+    width: 15px;
+    background-color: #fca311;
+    border-radius: 50%;
+    border: none;
+    transition: .2s ease-in-out;
+}
+
+#myRange::-moz-range-thumb {
+    height: 15px;
+    width: 15px;
+    background-color: #fca311;
+    border-radius: 50%;
+    border: none;
+    transition: .2s ease-in-out;
+}
+
+#myRange::-webkit-slider-thumb:hover {
+    box-shadow: 0 0 0 10px rgba(255,85,0, .1)
+}
+#myRange:active::-webkit-slider-thumb {
+    box-shadow: 0 0 0 13px rgba(255,85,0, .2)
+}
+#myRange:focus::-webkit-slider-thumb {
+    box-shadow: 0 0 0 13px rgba(255,85,0, .2)
+}

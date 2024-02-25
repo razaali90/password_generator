@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main-div">
+            <h1 id="heading1">Generate a</h1>
+            <h1 id="heading2">random password</h1>
+            <h3>Never use an insecure password again</h3>
+            <div id="slider">
+                <h3 id="password-length">Length: </h3>
+                <input type="range" min="8" max="12" value="8" class="slider" id="myRange" oninput="progressScript()">
+            </div>
+            <button onclick="displayPassword()">Generate Passwords</button>
+            
+            <div class="password-boxes">
+                <div id="sep-line"></div>
+                <div class="textbox-container">
+                    <div class="textbox-row">
+                        <input type="text" id="password1-el" class="textbox" placeholder="-" value="" onclick="copyText('password1-el')">
+                        <input type="text" id="password2-el" class="textbox" placeholder="-" value="" onclick="copyText('password2-el')">
+                    </div>
+                    <div class="textbox-row">
+                        <input type="text" id="password3-el" class="textbox" placeholder="-" value="" onclick="copyText('password3-el')">
+                        <input type="text" id="password4-el" class="textbox" placeholder="-" value="" onclick="copyText('password4-el')">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
